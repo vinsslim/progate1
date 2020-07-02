@@ -1,0 +1,150 @@
+
+@media all and (max-width: 960px)
+{
+    .about-left img {
+        width: 40%;
+        float: left;
+    }
+
+    .about-right h1 {
+        width: 60%;
+        padding: 0 30px;
+        font-size: 40px;
+        float: left;
+    }
+    .about-right p {
+        width: 60%;
+        padding: 0 30px;
+        font-size: 18px;
+        float: left;
+    }
+
+    .menu-wrapper h1 {
+        font-size: 40px;
+    }
+
+    .contact h1 {
+        padding-top: 25px;
+        font-size: 40px;
+    }
+
+}
+
+@media all and (max-width : 700px)
+{
+    .header-right {
+        display: none;
+      }
+      
+      .menu-icon {
+        display: block;
+      }
+      
+
+    .btn-wrapper {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+
+    .instagram {
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+    
+    .facebook {
+        font-size: 15px;
+        margin: 0 15px;
+        padding: 6px 16px;
+    }
+    
+    .twitter {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+
+    .about-left img {
+        display: none;
+    }
+
+    .about-right h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    .about-right p {
+        width: 100%;
+        padding: 0 50px;
+        font-size: 20px;
+        float: left;
+    }
+
+    .menu {
+        width: 100%;
+        color: white;
+        float: left;
+        padding: 0 50px;
+        margin-bottom: 50px;
+    }
+    
+    .menu-wrapper h1 {
+        font-size: 30px;
+    }
+
+    .menu h2 {
+        font-size: 25px;
+    }
+
+    .fine-wrapper {
+        float: left;
+        width: 100%;
+    }
+    
+    .contact {
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin-bottom: 50px;
+    }
+    
+    .contact h1 {
+        padding-top: 25px;
+        font-size: 30px;
+    }
+    
+    .contact p {
+        font-size: 20px;
+    }
+    
+    .message {
+        padding: 15px 40px;
+        background-color: rgba(250, 114, 24, 0.9);
+        cursor: pointer;
+        box-shadow: 0 7px rgba(180, 87, 0, 0.3);
+    }
+    
+    .message:active {
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+    }
+    
+    .btn-m {
+        padding: 12px 24px;
+        color: white;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 4px;
+    }
+    
+    .btn-m:hover {
+        opacity: 1;
+    }
+    
+    .fine {
+        width: 100%;
+        float: left;
+    }
+    
+}
